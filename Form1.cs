@@ -18,6 +18,7 @@ namespace AplicaciónWindow2
             InitializeComponent();
         }
 
+        // AGREGAR UN COMENTARIO
         private void txtBoxEdad_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar < 48 || e.KeyChar > 57) 
